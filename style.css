@@ -144,3 +144,8 @@ body {
 .roda-pe__paragrafo {
     margin-top: 2em;
 }
+
+.roda-pe__item:hover {
+    background-color: var(--cinza-secundario);
+    color: var(--botao-azul);
+}
