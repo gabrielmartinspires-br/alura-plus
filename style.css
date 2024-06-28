@@ -4,6 +4,8 @@
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
+    --botao-azul-efeito: #76b4ff;
+    --botao-cor-clique: #21f0de;
 }
 
 body {
@@ -148,4 +150,14 @@ body {
 .roda-pe__item:hover {
     background-color: var(--cinza-secundario);
     color: var(--botao-azul);
+}
+
+.roda-pe__item:active {
+    color: var(--botao-cor-clique);
+    background-color: var(--branco-principal);
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
 }
